@@ -1,5 +1,5 @@
 /**
- * Intro.js v2.7.0
+ * Intro.js v2.7.1-gmu
  * https://github.com/usablica/intro.js
  *
  * Copyright (C) 2017 Afshin Mehrabani (@afshinmeh)
@@ -18,7 +18,7 @@
   }
 } (this, function (exports) {
   //Default config/variables
-  var VERSION = '2.7.0';
+  var VERSION = '2.7.1-gmu';
 
   /**
    * IntroJs main class
@@ -1401,7 +1401,7 @@
     return (
       rect.top >= 0 &&
       rect.left >= 0 &&
-      (rect.bottom+80) <= window.innerHeight && // add 80 to get the text right
+      (rect.bottom+180) <= window.innerHeight && // add 80 to get the text right
       rect.right <= window.innerWidth
     );
   }

@@ -1,5 +1,8 @@
 ## Release History
 
+ * **v2.7.1-gmu** - 2017-11-29
+   - Changed func of checking is element in view port
+
  * **v2.7.0** - 2017-08-17
    - Added `onbeforeexit` callback
    - Added `force` parameter to `exit()`
